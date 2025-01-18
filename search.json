@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Project Name",
+    "section": "",
+    "text": "[Project description]"
+  },
+  {
+    "objectID": "projects/project1.html#overview",
+    "href": "projects/project1.html#overview",
+    "title": "Project Name",
+    "section": "",
+    "text": "[Project description]"
+  },
+  {
+    "objectID": "projects/project1.html#technologies-used",
+    "href": "projects/project1.html#technologies-used",
+    "title": "Project Name",
+    "section": "Technologies Used",
+    "text": "Technologies Used\n\nReact TypeScript"
+  },
+  {
+    "objectID": "projects/project1.html#key-features",
+    "href": "projects/project1.html#key-features",
+    "title": "Project Name",
+    "section": "Key Features",
+    "text": "Key Features\n\nFeature one\nFeature two\nFeature three"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Ouassil DAHIMENE 👋",
+    "section": "",
+    "text": "Bla blabla bla blablabla blabla\n\n\nView Projects Contact Me\n\n\n\n\n\n Python\n\n\n SQL\n\n\n Teradata\n\n\n Pandas\n\n\n Scikitlearn\n\n\n Jupyter Notebook\n\n\n Fastapi\n\n\n Postgresql\n\n\n Mysql\n\n\n Apache Airflow\n\n\n Git\n\n\n Django\n\n\n AWS\n\n\n Docker\n\n\n\n\n\n\n\n\n\n\n\nE-commerce Platform\n\n\n\n\nBuilding a full-stack e-commerce solution with React and Node.js\n\nReact Node.js MongoDB\n\nView Details ↗\n\n\n\n\n\n\nAnalytics Dashboard\n\n\n\n\nReal-time data visualization platform for business metrics\n\nTypeScript Express PostgreSQL\n\nView Details ↗\n\n\n\n\n\n\nMobile App\n\n\n\n\nCross-platform mobile app for task management\n\nReact Native Firebase Redux\n\nView Details ↗\n\n\n\n\n\n\n\nI’m always interested in hearing about new projects and opportunities.\n\nGitHub LinkedIn Email"
+  },
+  {
+    "objectID": "index.html#technologies-i-work-with",
+    "href": "index.html#technologies-i-work-with",
+    "title": "Hi, I’m Ouassil DAHIMENE 👋",
+    "section": "",
+    "text": "Python\n\n\n SQL\n\n\n Teradata\n\n\n Pandas\n\n\n Scikitlearn\n\n\n Jupyter Notebook\n\n\n Fastapi\n\n\n Postgresql\n\n\n Mysql\n\n\n Apache Airflow\n\n\n Git\n\n\n Django\n\n\n AWS\n\n\n Docker"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "Project Name",
+    "section": "",
+    "text": "[Project description]"
+  },
+  {
+    "objectID": "projects/project2.html#overview",
+    "href": "projects/project2.html#overview",
+    "title": "Project Name",
+    "section": "",
+    "text": "[Project description]"
+  },
+  {
+    "objectID": "projects/project2.html#technologies-used",
+    "href": "projects/project2.html#technologies-used",
+    "title": "Project Name",
+    "section": "Technologies Used",
+    "text": "Technologies Used\n\nReact TypeScript"
+  },
+  {
+    "objectID": "projects/project2.html#key-features",
+    "href": "projects/project2.html#key-features",
+    "title": "Project Name",
+    "section": "Key Features",
+    "text": "Key Features\n\nFeature one\nFeature two\nFeature three"
+  }
+]
