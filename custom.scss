@@ -1,0 +1,272 @@
+/*-- scss:defaults --*/
+// Colors
+$primary: #2563eb;
+$body-bg: #ffffff;
+$body-color: #1f2937;
+$link-color: #2563eb;
+
+// Typography
+$font-family-sans-serif: 'Inter', system-ui, -apple-system, sans-serif;
+$headings-font-weight: 600;
+
+/*-- scss:rules --*/
+// Basic Layout
+.content-block {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+// Hero Section
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: $body-color;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.hero-links {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+// Buttons
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  
+  &.btn-primary {
+    background: $primary;
+    color: white;
+    
+    &:hover {
+      background: darken($primary, 5%);
+      transform: translateY(-2px);
+    }
+  }
+  
+  &.btn-outline {
+    border: 1px solid #e5e7eb;
+    color: $body-color;
+    
+    &:hover {
+      border-color: $primary;
+      color: $primary;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+// Tech Stack
+.tech-stack {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #6b7280;
+  
+  strong {
+    color: $body-color;
+  }
+}
+
+// Section Titles
+.section-title {
+  font-size: 2rem;
+  margin: 4rem 0 2rem;
+  color: $body-color;
+}
+
+// Project Grid
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+// Project Cards
+.project-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    margin: 1rem;
+  }
+  
+  p {
+    margin: 1rem;
+    color: #6b7280;
+  }
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+// Tags
+.tags {
+  margin: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: #f3f4f6;
+  color: #4b5563;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+// Project Link
+.project-link {
+  display: inline-block;
+  margin: 1rem;
+  color: $primary;
+  text-decoration: none;
+  font-weight: 500;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Contact Section
+.contact-section {
+  background: #f8fafc;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  margin: 2rem 0;
+}
+
+// Social Links
+.social-links {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social-link {
+  color: $body-color;
+  text-decoration: none;
+  font-weight: 500;
+  
+  &:hover {
+    color: $primary;
+  }
+}
+
+
+.tech-stack {
+    margin: 3rem 0;       // Adds space above and below the section (3rem = 48px)
+    padding: 2rem;        // Adds internal spacing inside the section (2rem = 32px)
+    background: #f8fafc;  // Light gray-blue background color
+    border-radius: 1rem;  // Rounds the corners (1rem = 16px)
+    border: 1px solid #e5e7eb; // Light gray border for subtle separation
+  }
+  
+  .tech-grid {
+    display: grid;        // Uses CSS Grid for layout
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+    // ↑ Creates responsive columns:
+    // - auto-fit: automatically fits as many columns as possible
+    // - minmax(120px, 1fr): each column is minimum 120px wide and shares available space
+    gap: 1.5rem;         // Spacing between grid items (1.5rem = 24px)
+    justify-items: center; // Centers items horizontally in their grid cells
+  }
+  
+  .tech-item {
+    display: flex;        // Uses flexbox for vertical alignment
+    flex-direction: column; // Stacks children vertically
+    align-items: center;  // Centers items horizontally
+    text-align: center;   // Centers text
+    padding: 1rem;        // Internal spacing (1rem = 16px)
+    border-radius: 0.75rem; // Slightly rounded corners
+    background: white;    // White background
+    border: 1px solid #e5e7eb; // Light gray border
+    transition: all 0.2s ease; // Smooth animation for hover effects
+    
+    &:hover {
+      transform: translateY(-4px); // Lifts card up 4px on hover
+      box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.1); // Adds shadow on hover
+      border-color: $primary;    // Changes border color to primary color on hover
+    }
+    
+    img.tech-icon {
+      width: 75px;         // Sets icon width
+      height: 75px;        // Sets icon height
+      margin-bottom: 0.75rem; // Space between icon and text
+      transition: transform 0.2s ease; // Smooth animation for icon
+    }
+    
+    &:hover img.tech-icon {
+      transform: scale(1.1); // Makes icon slightly larger on hover
+    }
+  }
+  
+  // Mobile responsiveness
+  @media (max-width: 768px) {
+    .tech-grid {
+      grid-template-columns: repeat(3, 1fr); // Shows 3 columns on tablets
+    }
+    
+    .tech-item {
+      padding: 0.75rem;    // Reduces padding on smaller screens
+      
+      img.tech-icon {
+        width: 75px;       // Smaller icons on mobile
+        height: 75px;
+      }
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tech-grid {
+      grid-template-columns: repeat(2, 1fr); // Shows 2 columns on phones
+    }
+  }
+
+// Responsive Design
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .hero-links {
+    flex-direction: column;
+    
+    .btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

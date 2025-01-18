@@ -1,0 +1,163 @@
+---
+page-layout: full
+title: ""
+---
+
+::: {.content-block}
+# Hi, I'm Ouassil DAHIMENE 👋
+
+::: {.hero-subtitle}
+Bla blabla bla blablabla blabla
+:::
+
+::: {.hero-links}
+[View Projects](#projects){.btn .btn-primary}
+[Contact Me](mailto:your@email.com){.btn .btn-outline}
+:::
+
+::: {.tech-stack}
+## Technologies I Work With
+
+::: {.tech-grid}
+
+::: {.tech-item}
+![Python](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg){.tech-icon}
+<span>Python</span>
+:::
+
+::: {.tech-item}
+![SQL](images/sql.png){.tech-icon}
+<span>SQL</span>
+:::
+
+::: {.tech-item}
+![Teradata](images/teradata.svg){.tech-icon}
+<span>Teradata</span>
+:::
+
+::: {.tech-item}
+![Pandas](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg){.tech-icon}
+<span>Pandas</span>
+:::
+
+::: {.tech-item}
+![Scikitlearn](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg){.tech-icon}
+<span>Scikitlearn</span>
+:::
+
+::: {.tech-item}
+![Jupyter Notebook](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg){.tech-icon}
+<span>Jupyter Notebook</span>
+:::
+
+
+::: {.tech-item}
+![fastapi](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg){.tech-icon}
+<span>Fastapi</span>
+:::
+
+::: {.tech-item}
+![postgresql](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg){.tech-icon}
+<span>Postgresql</span>
+:::
+
+::: {.tech-item}
+![mysql](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg){.tech-icon}
+<span>Mysql</span>
+:::
+
+
+::: {.tech-item}
+![Apache Airflow](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg){.tech-icon}
+<span>Apache Airflow</span>
+:::
+
+
+
+::: {.tech-item}
+![Git](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg){.tech-icon}
+<span>Git</span>
+:::
+
+::: {.tech-item}
+![Django](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg){.tech-icon}
+<span>Django</span>
+:::
+
+::: {.tech-item}
+![AWS](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg){.tech-icon}
+<span>AWS</span>
+:::
+
+::: {.tech-item}
+![Docker](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg){.tech-icon}
+<span>Docker</span>
+:::
+:::
+:::
+
+::: {.section-title}
+## Featured Projects {#projects}
+:::
+
+::: {.project-grid}
+::: {.project-card}
+![E-commerce Platform](images/project1.png)
+
+### Modern E-commerce Platform
+Building a full-stack e-commerce solution with React and Node.js
+
+::: {.tags}
+[React]{.tag}
+[Node.js]{.tag}
+[MongoDB]{.tag}
+:::
+
+[View Details ↗]{.project-link}
+:::
+
+::: {.project-card}
+![Analytics Dashboard](images/project2.png)
+
+### Analytics Dashboard
+Real-time data visualization platform for business metrics
+
+::: {.tags}
+[TypeScript]{.tag}
+[Express]{.tag}
+[PostgreSQL]{.tag}
+:::
+
+[View Details ↗]{.project-link}
+:::
+
+::: {.project-card}
+![Mobile App](images/project3.png)
+
+### Mobile Application
+Cross-platform mobile app for task management
+
+::: {.tags}
+[React Native]{.tag}
+[Firebase]{.tag}
+[Redux]{.tag}
+:::
+
+[View Details ↗]{.project-link}
+:::
+:::
+
+::: {.section-title}
+## Let's Connect
+:::
+
+::: {.contact-section}
+I'm always interested in hearing about new projects and opportunities.
+
+::: {.social-links}
+[GitHub](https://github.com/wassil-dev){.social-link}
+[LinkedIn](https://linkedin.com/in/ouassil-dahimene/){.social-link}
+[Email](mailto:ouassil.dahimene@gmail.com){.social-link}
+:::
+:::
+:::

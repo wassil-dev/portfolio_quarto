@@ -1,0 +1,22 @@
+---
+title: "Project Name"
+description: "A brief description"
+date: "2024-01-15"
+image: "project1.jpg"
+categories: [Web Development, Design]
+---
+
+## Overview
+
+[Project description]
+
+## Technologies Used
+:::{.tags}
+[React]{.tag}
+[TypeScript]{.tag}
+:::
+
+## Key Features
+1. Feature one
+2. Feature two
+3. Feature three
