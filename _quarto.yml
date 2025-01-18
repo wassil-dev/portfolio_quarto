@@ -12,23 +12,24 @@ website:
       - href: index.qmd
         text: Home
         icon: house
-      - href: projects/index.qmd
-        text: Projects
-        icon: code-square
       - href: about.qmd
         text: About
         icon: person
+      - href: projects/index.qmd
+        text: Projects
+        icon: code-square
+      
     right:
       - icon: github
-        href: https://github.com/your-username
+        href: https://github.com/wassil-dev
       - icon: linkedin
-        href: https://linkedin.com/in/your-username
+        href: https://linkedin.com/in/ouassil-dahimene/
 
   page-footer:
     left: "© 2025 Your Name"
     right: 
       - icon: envelope
-        href: mailto:your.email@domain.com
+        href: mailto:ouassil.dahimene@gmail.com
 
 format:
   html:

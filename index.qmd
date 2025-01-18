@@ -15,9 +15,11 @@ Bla blabla bla blablabla blabla
 [Contact Me](mailto:your@email.com){.btn .btn-outline}
 :::
 
-::: {.tech-stack}
+::: {.section-title}
 ## Technologies I Work With
+:::
 
+::: {.tech-stack}
 ::: {.tech-grid}
 
 ::: {.tech-item}
